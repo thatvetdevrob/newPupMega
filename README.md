@@ -1,12 +1,10 @@
-# newPupMega
+---- form from:
 
-Pup Mega: now in react app!
+https://codepen.io/theresa-e
 
+--- backgrounds from:
 
-# Credits:
+https://www.svgbackgrounds.com/#protruding-squares
 
-These are the sources that make my react app awesome!
+---- rocking from Marcy Williams-Pudalov
 
-- Bone image from : http://www.onlinewebfonts.com
-
-- SVG background from: https://www.svgbackgrounds.com
