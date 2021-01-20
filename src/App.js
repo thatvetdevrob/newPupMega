@@ -8,11 +8,9 @@ function App() {
 
 let checker = false;
 
-  const queryString = window.location.search;
-console.log('query: ', queryString);
+const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const sold = urlParams.get('sold')
-console.log("is it sold? ", sold);
 
 if(sold === true){
   checker = true;
@@ -20,7 +18,6 @@ if(sold === true){
 
 
 // shirt
-console.log('checker', sold);
   return (
     <div className="App">
       <header id='panelD' className="App-header panel radier">

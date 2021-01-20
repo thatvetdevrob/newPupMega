@@ -187,11 +187,29 @@ const initialState = [
 "description": "Toss a shell at an enemy!",
 "category": "Weapons"
 },
-{"name":"Power Star",
-"price": 2400,
-"url": "https://www.mariowiki.com/images/d/d6/Captain_toad_powerstar.png",
-"description": "Power Star!",
-"category": "Accessories"
+{"name":"Nibbler Bone",
+"price": 400,
+"url": "https://pupmega.dog/images/nibbler.jpeg",
+"description": "Nibbler is a sweetheart.",
+"category": "Bones"
+},
+{"name":"Ruki Bone",
+"price": 500,
+"url": "https://pupmega.dog/images/ruki.jpeg",
+"description": "Ruki got the best shirts.",
+"category": "Bones"
+},
+{"name":"Talb Bone",
+"price": 600,
+"url": "https://pupmega.dog/images/talb.jpeg",
+"description": "Talb's hood is so unique.",
+"category": "Bones"
+},
+{"name":"Princess Barry Carrot",
+"price": 900,
+"url": "https://pupmega.dog/images/barry.jpeg",
+"description": "For the puppy that is a rabbit",
+"category": "Bones"
 },
 {"name":"Silver Star",
 "price": 2600,

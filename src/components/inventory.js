@@ -50,7 +50,7 @@ function addToCart(product) {
 
         <ListItem key={idx + '2'}>{product.name}</ListItem>
 
-        <ListItem key={idx + '3'}>Price: ${product.price}.00</ListItem>
+        <ListItem key={idx + '3'}>Price: 🦴{product.price}.00 puppy treats</ListItem>
 
         <ListItem className='bottomer' key={idx + '4'}>Description: {product.description}</ListItem>
 

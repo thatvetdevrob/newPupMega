@@ -8,9 +8,9 @@ import store from './store/configure-store';
 
 ReactDOM.render(
   <React.StrictMode>
-      <Provider store={store}>
-    <NavTabs className=" topper" />
-  </Provider>
+    <Provider store={store}>
+      <NavTabs className="topper" />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

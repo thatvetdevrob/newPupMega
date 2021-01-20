@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import App from '../App';
 import Acc from './acc';
+import Bones from './bones';
 import Clothes from './clothes';
 import Weapons from './weapons';
 import Items from './items';
@@ -86,10 +87,10 @@ export default function NavTabs(props) {
           aria-label="nav tabs example"
         >
           <LinkTab className='bar' label="Home" href="/home" {...a11yProps(0)} />
-          <LinkTab className='bar' label="Accessories" href="/acc" {...a11yProps(1)} />
-          <LinkTab className='bar' label="Armor" href="/armor" {...a11yProps(2)} />
-          <LinkTab className='bar' label="Weapons" href="/weapons" {...a11yProps(3)} />
-          <LinkTab className='bar' label="Items" href="/items" {...a11yProps(4)} />
+          <LinkTab className='bar' label="Bones" href="/bones" {...a11yProps(1)} />
+          <LinkTab className='bar' label="Paper" href="/armor" {...a11yProps(2)} />
+          <LinkTab className='bar' label="Food" href="/weapons" {...a11yProps(3)} />
+          <LinkTab className='bar' label="More..." href="/items" {...a11yProps(4)} />
           <LinkTab className='bar' label={<CartCounter/>} href="/cart" {...a11yProps(5)} />
         </Tabs>
       </AppBar>
@@ -97,7 +98,7 @@ export default function NavTabs(props) {
       <App />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <Acc />
+        <Bones />
       </TabPanel>
       <TabPanel value={value} index={2}>
        <Clothes />
