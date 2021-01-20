@@ -1,0 +1,27 @@
+{
+    "Armor": [
+        {
+            "name": "Hero Shirt"
+        },
+        {
+            "name": "Fuzzy Shirt"
+        }
+    ],
+    "Acc": [
+        {
+            "name": "b'tub Ring"
+        },
+        {
+            "name": "Amulet"
+        }
+    ],
+    "Weapons": [
+        {
+            "name": "Ultra Hammer"
+        },
+        {
+            "name": "Lazy Shell"
+        }
+    ]
+
+}       
