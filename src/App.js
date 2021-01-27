@@ -1,7 +1,6 @@
 import logo from './logo.png';
 import './App.css';
 import './custom.scss';
-import star from './Star.png'
 import SimpleModal from '../src/components/simple'
 
 function App() {
@@ -35,7 +34,7 @@ if(sold === true){
           target="_blank"
           rel="noopener noreferrer"
         ><h2>
-          Back to world map</h2>
+          Back to earth</h2>
         </a>
       </header>
     </div>

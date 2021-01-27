@@ -44,6 +44,7 @@ function addToCart(product) {
     
     <If condition={product.category === props.categories.activeCategory.name}>
 
+<If condition={product.count > 0}>
       <Card className="display-stuff relativer"  variant="outlined">
 
         <ListItem key={idx + '1'}><img className="sizor-item" alt={product.name} src={product.url} /></ListItem>
@@ -57,7 +58,7 @@ function addToCart(product) {
         <Button style={{minWidth: '90%', textAlign: 'center', marginLeft: 'auto', marginRight: 'auto', marginBottom: '5px'}} id="" className='button-absoluter' variant="contained" color="secondary" onClick={() => addToCart(product)}> Add To Cart </Button>
 
       </Card>
-
+      </If>
 </If>
 
   )

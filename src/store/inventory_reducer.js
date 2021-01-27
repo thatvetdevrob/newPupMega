@@ -190,26 +190,30 @@ const initialState = [
 {"name":"Nibbler Bone",
 "price": 400,
 "url": "https://pupmega.dog/images/nibbler.jpeg",
-"description": "Nibbler is a sweetheart.",
-"category": "Bones"
+"description": "For the nice kind of pup.",
+"category": "Bones",
+"count": 1
 },
 {"name":"Ruki Bone",
 "price": 500,
 "url": "https://pupmega.dog/images/ruki.jpeg",
-"description": "Ruki got the best shirts.",
-"category": "Bones"
+"description": "For a pup that is high fashion.",
+"category": "Bones",
+"count": 1
 },
 {"name":"Talb Bone",
 "price": 600,
 "url": "https://pupmega.dog/images/talb.jpeg",
-"description": "Talb's hood is so unique.",
-"category": "Bones"
+"description": "For the meaty pup.",
+"category": "Bones",
+"count": 1
 },
 {"name":"Princess Barry Carrot",
 "price": 900,
 "url": "https://pupmega.dog/images/barry.jpeg",
 "description": "For the puppy that is a rabbit",
-"category": "Bones"
+"category": "Bones",
+"count": 1
 },
 {"name":"Silver Star",
 "price": 2600,

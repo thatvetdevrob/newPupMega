@@ -112,16 +112,16 @@ const SimpleCart = props => {
             </h1>
                                         <div class="cc-num">
                                             <label for="card-num">Credit Card No.</label>
-                                            <input required type="text" name="card-num" />
+                                            <input required value="1234-9876-5678-4321" type="text" name="card-num" />
                                         </div>
                                         <div class="cc-info">
                                             <div>
                                                 <label for="card-num">Exp</label>
-                                                <input required type="text" name="expire" />
+                                                <input value ="02-33" required type="text" name="expire" />
                                             </div>
                                             <div>
                                                 <label for="card-num">CCV</label>
-                                                <input required type="text" name="security" />
+                                                <input value="000" required type="text" name="security" />
                                             </div>
                                         </div>
                                         <div class="btns">
@@ -150,7 +150,7 @@ const SimpleCart = props => {
 
                                         <div key={idx + '2'}>{item.name}</div>
 
-                                <div key={idx + '3'}>Price: ${item.price}.00</div>
+                                <div key={idx + '3'}>Price: 🦴{item.price}.00 scritches</div>
 
                                         </div>
                                         
@@ -165,7 +165,7 @@ const SimpleCart = props => {
                                             )
                                         })}
                                     </List>
-                                    <div><h3>Total: ${total}.00</h3></div>
+                                    <div><h3>Price: 🦴{total}.00 scritches</h3></div>
                                 </Paper>
                             </div>
                         </div>

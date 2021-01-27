@@ -88,9 +88,9 @@ export default function NavTabs(props) {
         >
           <LinkTab className='bar' label="Home" href="/home" {...a11yProps(0)} />
           <LinkTab className='bar' label="Bones" href="/bones" {...a11yProps(1)} />
-          <LinkTab className='bar' label="Paper" href="/armor" {...a11yProps(2)} />
+          <LinkTab className='bar' label="Art" href="/armor" {...a11yProps(2)} />
           <LinkTab className='bar' label="Food" href="/weapons" {...a11yProps(3)} />
-          <LinkTab className='bar' label="More..." href="/items" {...a11yProps(4)} />
+          <LinkTab className='bar' label="Misc" href="/items" {...a11yProps(4)} />
           <LinkTab className='bar' label={<CartCounter/>} href="/cart" {...a11yProps(5)} />
         </Tabs>
       </AppBar>

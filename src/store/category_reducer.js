@@ -7,7 +7,7 @@ import axios from 'axios';
 
 // STORE
 const initialState = {
-  categories: [ "Weapons","Bones","Armor", "Bones", "Items"],
+  categories: [ "Weapons", "Bones", "Armor", "Art", "Food", "Misc", "Items"],
   activeCategory: {
 }
 }
