@@ -47,9 +47,10 @@ body {
 
 
 .love{
-  background-color: rgb(255, 0, 106);
-  background-color: #ba421b;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='37' height='37' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%239e3817' fill-opacity='0.44'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.44'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+  background-color: #ff4794;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%2330942e' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23ff4794' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23f751a9' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23eb5cbc' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23dd68cd' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23cb73dc' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23b77de8' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23a187f0' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%238990f6' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%236f97f9' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23539ef8' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%2332a3f6' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%2300a8f0' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%2300ace9' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%2300afe1' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%2300b2d8' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%2300b4ce' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%2324b5c4' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%233fb6ba' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .title {
@@ -196,7 +197,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 #panelA{
-  background: url("https://catwithmonocle.com/wp-content/uploads/2020/09/sm35-pattern-v1-3840x2160-1.jpg") ; 
+  background-color: #ffece3;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='250' viewBox='0 0 20 20'%3E%3Cg %3E%3Cpolygon fill='%23e1e4f5' points='20 10 10 0 0 0 20 20'/%3E%3Cpolygon fill='%23e1e4f5' points='0 10 0 20 10 20'/%3E%3C/g%3E%3C/svg%3E");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -204,7 +206,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 #panelD{
-  background: url("https://i.ytimg.com/vi/GbFmVbr7xKg/maxresdefault.jpg")no-repeat center center fixed; 
+  background: url("https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3452&q=80")no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
